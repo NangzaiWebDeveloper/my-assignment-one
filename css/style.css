@@ -10,21 +10,25 @@ body{
 .container{
     width: 1140px;
     margin: 0 auto;
+    
 }
 
                 /* this is header section  */
+.header{
+    margin-top: 40px;
+    border-radius: 16px;
+}
 .navbar{
     background-image: url('../img/Banner Image.png');
+    background: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 16px;
-    margin-top: 25px;
-    /* width: 100%;
-    height: 100%; */
-    
+    border-radius: 30px;
+    width: 100%;
+
 }
 .nav-title{
-    padding-top: 150px;
+    padding-top: 200px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     height: 600px;
 }
@@ -119,9 +123,6 @@ body{
     padding-left: 112px;
     margin-top: 42px;
 }
-.poster-image{
-
-}
 
         /* schedule section start from here   */
 .schedule-section{
@@ -196,6 +197,171 @@ body{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
+    line-height: 33px;
+    padding: 23px 0px;
+}
+
+
+
+
+            /* Holidays Sale 50% Section is Start from here */
+
+.holidays{
+    margin-top: 120px;
+}
+.holidays-all-info{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.holidays-titles{
+    margin-bottom: 70px;
+}
+.holidays-titles h4{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+}
+.holidays-titles h1{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+.holidays-titles p{
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
     line-height: 32px;
-    padding: 33px 0px;
+}
+/*....Image.... Holidays Sale 50% Section */
+.baby-girl{
+    background-image: url(../img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    height: 433px;
+    background-position: right;
+}
+.holidays-image{
+    background-image: url(../img/Rectangle\ 2.png);
+    height: 229px;
+    /* margin-top: 500px; */
+}
+.five{
+    position: absolute;
+}
+
+
+
+
+              /* this is OUR Portfolio section */
+.protfolio{
+    margin-top: 120px;
+}
+.portfolio-title h5{
+    font-size: 24px;
+    color: red;
+    font-weight: 500;
+}
+.portfolio-title h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 80px;
+}
+.portfolio-title p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+ /* This is portfolio-image */
+.portfolio-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px
+
+}
+.portfolio-image img{
+    width: 350px;
+}
+
+
+
+
+            /* this is Subscribe Newsletter section */
+.subscribe{
+    margin-top: 120px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 64px;
+    text-align: center;
+}
+.subscribe-title > h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 90px;
+}
+.subscribe-title > p{
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.insert-file{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.insert-file input{
+    padding: 15px 60px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0px;
+    font-size: 20px;
+}
+.insert-file > button{
+    padding: 15px;
+    border-radius: 0px 50px 50px 0px;
+    border: 0px;
+    background: red;
+    font-size: 20px;
+}
+
+
+
+
+               /* this is footer section  */
+.footer{
+    background-color: black;
+    height: 600px;
+    margin-top: 120px;
+}
+.f-section > .icons{
+    text-align: center;
+    margin-top: 120px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.contacts p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.lastONE{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.lastONE > p{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
 }
