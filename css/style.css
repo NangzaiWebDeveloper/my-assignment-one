@@ -282,10 +282,16 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px
-
 }
 .portfolio-image img{
     width: 350px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+.portfolio-image img:hover{
+     transform: scale(1.2);
+     z-index: .05;
+
 }
 
 
